@@ -1,2 +1,2 @@
 # habittracker
-implementation of a bakcend of a habit tracker. Follow upd your acitivities
+implementation of a backend of a habit tracker. Follow upd your acitivities

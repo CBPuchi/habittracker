@@ -17,7 +17,7 @@ class TestUser:
 
         #create two user and save
         self.user1 = User("Peter")  # Initialize User with name "Peter
-        self.user2 = User("Pauline")  # Initialize User with name "Paula"
+        self.user2 = User("Pauline")  # Initialize User with name "Pauline"
         self.user1.save()
         assert self.user1.userid == 1
         self.user2.save()
@@ -89,11 +89,11 @@ class TestUser:
         assert userValues[1] == "Paula"
 
     def test_delete(self):
-        userValues = self.db.read_user_by_id(4)
+        userValues = self.db.read_user_by_id(1)
         if userValues:
             user1= User(userValues[1], userValues[0])
             user1.delete()
-        userValues = self.db.read_user_by_id(4)
+        userValues = self.db.read_user_by_id(1)
         assert userValues == None
 
     def teardown_method(self):

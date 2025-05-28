@@ -97,7 +97,7 @@ def insert_example_data_into_db():
     for x in range(30, 0, -1 ):
         nh2.complete(date.today() - timedelta(days= x))
 
-    nh3 = Habit("Helping Donald", 1, user1.userid)
+    nh3 = Habit("Helping Donald", Period.daily.value, user1.userid)
     nh3.save()
     nh3.complete(date.today() - timedelta(days=28))
     nh3.complete(date.today() - timedelta(days=27))

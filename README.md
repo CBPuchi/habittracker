@@ -65,10 +65,10 @@ For the registration you have to enter a name. Only letters are allowed. If the 
 you are asked to enter a different name. A successful registration is quitted with "Registration successful!"
 Since your are new, you can choose your first habits out of a list. The list includes: Running (weekly), 
 Singing (daily), Swimming (weekly), Tea time (daily) and Yoga (daily).
-to login in you have to enter your username. If you know your userid, you can also login with the userid.
 
-To login in you have to enter your username. If you know your userid, you can also login with the userid.
-If no user could be found with the entered data, you are asked to login again or you can exit the habit tracker.
+To login in you have to enter your username. If you know your userid, you can also login with the userid. 
+If no user could be found with the entered data, youa re asked to login again our you can exit the habit tracker.
+
 ---
 #### 2. Update user
 First point in the main menu is, that you can change your user name.

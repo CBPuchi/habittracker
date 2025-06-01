@@ -73,10 +73,12 @@ If no user could be found with the entered data, youa re asked to login again ou
 #### 2. Update user
 First point in the main menu is, that you can change your user name.
 The current name is shown und you can enter a new name.
+
 ---
 #### 3. Habit overwiew
 With the habit overview all of your habits are listed with the period, the longest streak and current streak.
 And your are asked, if you want to see the ompletion date of any habit.
+
 ---
 #### 4.Create, update, delete or complete a habit
 

@@ -1,7 +1,9 @@
 import pytest
+import sys
+import os
+sys.path.insert(1, os.path.join(sys.path[0], '..'))
 import habittrackerdb
 from user import User
-
 
 
 class TestUser:

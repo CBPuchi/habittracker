@@ -91,7 +91,7 @@ def menu(user):
         user.update(new_name)
         menu(user)
 
-    elif menu_question == "Create, update, complete or delete a habit ":
+    elif menu_question == "Create, update, delete or complete a habit":
         """choose habit acitivities"""
         habit_question = questionary.select("\nDo you want to: ",
                                             choices=[
@@ -171,8 +171,11 @@ def menu(user):
         if watch_completiondates == "yes":
             habit_name = questionary.text("\nEnter name of habit to see its completion dates?").ask()
             l_habit = user.get_habit(habit_name)
-            l_habit.print_completion_dates()
-
+            if l_habit:
+                l_habit.print_completion_dates()
+            else:
+                print("\nA habit with this name is unknown")
+                
         menu(user)
 
     elif menu_question == "View statistics":

@@ -1,10 +1,9 @@
 import pytest
-
+import sys, os
+sys.path.insert(1, os.path.join(sys.path[0], '..'))
 import habittrackerdb
-import initialize
-import user
 from user import User
-from datetime import date
+
 
 class TestInitialize:
 

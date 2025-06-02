@@ -1,5 +1,8 @@
 import freezegun
 import pytest
+import sys, os
+sys.path.insert(1, os.path.join(sys.path[0], '..'))
+
 from datetime import timedelta, date, datetime
 import habittrackerdb
 from user import User
